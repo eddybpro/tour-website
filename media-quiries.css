@@ -1,0 +1,179 @@
+/* Meadia quiries */
+
+@media screen and (min-width:768px) {
+    .header .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--light-color);
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 100;
+    }
+
+    .header .flex .head{
+        position: relative;
+    }
+
+    .header .head .menu-btn{
+        display: none;
+    }
+
+    .header .links-container{
+        height: 100%;
+    } 
+
+    .header .links-container .links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .header .links-container .links li{
+        margin-left: .3rem;
+        margin-right: .3rem;
+        margin-top: 0;
+    }
+
+    .about{
+        padding: 1rem ;
+    }
+
+    .about .about-container{
+        flex-direction: row;
+        padding: 1rem 0;
+    }
+
+    .about .about-container .img-container{
+        flex: 1;
+        border-radius: .5rem;
+    }
+
+    .about .about-container .text-container{
+        flex: 1;
+    }
+
+    .reviews {
+        padding: 1rem;
+    }
+
+    .reviews .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+    }
+
+    .reviews .box-container .box{
+        flex: 1;
+        margin: .5rem;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+
+    .services{
+        padding: 1rem;
+    }
+
+    .services .services-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .services .services-container .service-card{
+        flex: 1;
+        margin: .5rem;
+        border-radius: .5rem;
+    }
+
+    .contact .form{
+        width: 80%;
+    }
+
+    .footer .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .footer .container div{
+        flex: 1;
+    }
+
+    .footer .container .footer-links{
+        padding-top: 1.5rem;
+    }
+
+    .footer .social-icons ul li a i{
+        font-size: 1.7rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
